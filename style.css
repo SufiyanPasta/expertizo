@@ -1,0 +1,61 @@
+ 
+
+ #nav_bar{
+    position: sticky;
+    top: 0;
+    justify-content: center;
+     
+}
+.bigimg {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-repeat: no-repeat;
+  background-size: 200%;
+    background-image: url('./images/img\ building.jpg');
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .bigimg {
+      
+        background-repeat: no-repeat;
+     
+        background-image: url('./images/small\ device\ img.jpg');
+        size: 5px;
+    }
+ 
+    }
+  @media only screen and (max-width: 280px) {
+    /* For mobile phones: */
+    .bigimg {
+      
+        background-repeat: no-repeat;
+        size: 5px;
+        background-image: url('./images/small\ device\ img.jpg');
+
+    }
+  }
+.cardhover:hover{
+ transform: scale(1.2);
+ 
+}
+.small_card{
+   justify-content: center;
+   display: flex;
+   height: 200px;
+   width: 200px;
+}
+
+.cardhovertwo:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+   
+}
+.my_hover:hover{
+  background-color: black;
+  color: white;
+
+}
+.human_hover:hover{
+  transform: scale(1.1);
+}
